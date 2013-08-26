@@ -3,7 +3,7 @@ javascript:(function () {
   function leapJsLoaded() {
     if (typeof LeapManager == 'undefined') {
       var app = document.createElement('script');
-      app.setAttribute('src', '/app.min.js');
+      app.setAttribute('src', 'https://raw.github.com/junichi-ishikura/mess-up-the-page/master/js/app.min.js');
       document.body.appendChild(app);
     }
   }
